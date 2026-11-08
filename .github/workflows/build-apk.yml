@@ -6,6 +6,9 @@ on:
       - "v*"
     branches:
       - "**"
+  release:
+    types:
+      - published
   workflow_dispatch:
 
 permissions:
